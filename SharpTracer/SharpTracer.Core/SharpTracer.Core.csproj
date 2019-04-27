@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Patrick Weibel</Authors>
+    <Company>-</Company>
+    <Product>SharpTracer</Product>
+    <Description>Tracing Middleware for ASP.NET Core - Core Library</Description>
+    <Copyright>2019 Patrick Weibel</Copyright>
+    <RepositoryType>Git</RepositoryType>
+    <PackageReleaseNotes>-</PackageReleaseNotes>
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <Version>0.1.0</Version>
+    <PackageLicenseUrl>https://github.com/GhostSource/SharpTracer/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/GhostSource/SharpTracer.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/GhostSource/SharpTracer</PackageProjectUrl>
+    <PackageTags>Tracing;Logging;ASP.NET Core;Middleware</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SharpTracer.Abstractions\SharpTracer.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
